@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+#include<stdio.h>
+#include<string.h>
+int main() {
+    char a[20];
+    cin>>a;
+    int i,j;
+    for(i=0;i<strlen(a);i++){
+        for(j=i+1;j<strlen(a);j++){
+            if(a[i]==a[j]){
+                cout<<a[i];
+            }
+        }
+    }
+}
